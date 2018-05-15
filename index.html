@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--TODO add bootstrap/bulma css cdn-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flat Links</title>
+
+    <link rel="stylesheet" href="bulma.css">
+    <!-- Roboto Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container-fluid {
+            margin: 50px 25%;
+        }
+
+        .link {
+            /*max-width: 85%;*/
+            margin-bottom: 20px;
+        }
+
+        .box {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            padding: 0px;
+        }
+
+        .box:hover, .box:focus {
+            transform: scale3d(1.006, 1.006, 1);
+        }
+
+        .box:hover::after, .card__one:focus::after {
+            opacity: 1;
+        }
+
+        img {
+            /*max-width: 100px;*/
+            /* this will affect image size, TODO*/
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <h1 class="title has-text-centered">Flat Weblinks</h1>
+    <br>
+
+    <div class="link">
+        <a href="http://emby.lan">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/emby_2.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Emby</h1>
+                    <h1 class="subtitle is-4">Watch movies and TV</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="http://downloads.lan/couchpotato">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/couchpotato.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">CouchPotato</h1>
+                    <h1 class="subtitle is-4">Download Movies</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="http://nextcloud.lan">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/owncloud.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Nextcloud</h1>
+                    <h1 class="subtitle is-4">Access media and files from the cloud </h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="link">
+        <a href="http://downloads.lan:8112">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/deluge.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Deluge</h1>
+                    <h1 class="subtitle is-4">VPN-Protected Torrent Server </h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="http://homeassistant.lan:8123">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/homeassistant.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Home Assistant</h1>
+                    <h1 class="subtitle is-4">Control home automation</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <br>
+    <h1 class="title has-text-centered">Developer Stuff</h1>
+    <br>
+    <div class="link">
+        <a href="http://wiki.lan">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/confluence.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Wiki</h1>
+                    <h1 class="subtitle is-4">Setup docs and network info</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="link">
+        <a href="http://gitlab.lan">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/gitlab.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Gitlab</h1>
+                    <h1 class="subtitle is-4">Version Control and Projects repo</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="http://pfsense.lan">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/pfsense.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Router</h1>
+                    <h1 class="subtitle is-4">pfSense </h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="http://pihole.lan/admin">
+            <div class="columns box">
+                <div class="column is-2">
+                    <img class="image" src="images/pihole_new.png">
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-2">Pihole</h1>
+                    <h1 class="subtitle is-4">Block ads network-wide</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+</div>
+</body>
+</html>
